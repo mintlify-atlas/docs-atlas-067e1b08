@@ -1,0 +1,175 @@
+{
+  "projectType": "framework",
+  "projectName": "Video.js v10",
+  "projectDescription": "A modern, modular media player framework for Web and React with a composable feature system, presets, and accessible UI components.",
+  "theme": "palm",
+  "primaryColor": "#fbb414",
+  "lightColor": "#d44849",
+  "darkColor": "#f5c658",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/overview",
+              "concepts/features",
+              "concepts/presets",
+              "concepts/skins",
+              "concepts/ui-components"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/installation",
+              "guides/react",
+              "guides/html",
+              "guides/customize-skins",
+              "guides/custom-features",
+              "guides/media-providers"
+            ]
+          },
+          {
+            "group": "Packages",
+            "pages": [
+              "packages/react",
+              "packages/html",
+              "packages/core",
+              "packages/store",
+              "packages/utils"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Player",
+            "pages": [
+              "api/create-player",
+              "api/player-context",
+              "api/player-controller",
+              "api/player-provider",
+              "api/player-container",
+              "api/container-mixin",
+              "api/provider-mixin",
+              "api/snapshot-controller",
+              "api/store-controller"
+            ]
+          },
+          {
+            "group": "Hooks",
+            "pages": [
+              "api/use-player",
+              "api/use-media",
+              "api/use-media-registration",
+              "api/use-player-context",
+              "api/use-selector",
+              "api/use-store",
+              "api/use-snapshot",
+              "api/use-button",
+              "api/use-slider"
+            ]
+          },
+          {
+            "group": "UI Components",
+            "pages": [
+              "api/controls",
+              "api/play-button",
+              "api/mute-button",
+              "api/fullscreen-button",
+              "api/pip-button",
+              "api/seek-button",
+              "api/captions-button",
+              "api/playback-rate-button",
+              "api/buffering-indicator",
+              "api/time",
+              "api/time-slider",
+              "api/slider",
+              "api/volume-slider",
+              "api/poster",
+              "api/thumbnail",
+              "api/tooltip",
+              "api/popover"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "api/feature-playback",
+              "api/feature-volume",
+              "api/feature-time",
+              "api/feature-fullscreen",
+              "api/feature-pip",
+              "api/feature-source",
+              "api/feature-text-tracks",
+              "api/feature-playback-rate",
+              "api/feature-buffer",
+              "api/feature-controls",
+              "api/feature-error"
+            ]
+          },
+          {
+            "group": "Utilities",
+            "pages": [
+              "api/create-selector",
+              "api/render-element"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Composable feature system — mix and match player capabilities (playback, volume, fullscreen, PiP, text tracks, etc.)",
+    "Multi-platform support — React components, HTML custom elements, and React Native",
+    "Presets — pre-packaged player configurations for video, audio, and background use cases",
+    "Skinnable UI — use built-in skins or compose from individual UI components",
+    "TypeScript-first — fully typed API surface with generics for state inference",
+    "HLS and DASH support via hls.js and dash.js built-in",
+    "Accessible by default — ARIA roles, keyboard navigation, and focus management",
+    "Tree-shakeable packages with development/production builds"
+  ],
+  "publicApiSurface": [
+    "createPlayer() — @videojs/react and @videojs/html",
+    "Player.Provider / <video-player> — state provider",
+    "Player.Container / <media-container> — layout container",
+    "createPlayer({ features }) — feature composition",
+    "usePlayer() — React hook for player state and actions",
+    "useMedia() — React hook for media element registration",
+    "PlayerController — HTML custom element controller",
+    "PlayButton / <media-play-button>",
+    "MuteButton / <media-mute-button>",
+    "FullscreenButton / <media-fullscreen-button>",
+    "PiPButton / <media-pip-button>",
+    "SeekButton / <media-seek-button>",
+    "CaptionsButton / <media-captions-button>",
+    "PlaybackRateButton / <media-playback-rate-button>",
+    "BufferingIndicator / <media-buffering-indicator>",
+    "TimeSlider / <media-time-slider>",
+    "VolumeSlider / <media-volume-slider>",
+    "Slider / <media-slider>",
+    "Poster / <media-poster>",
+    "Thumbnail / <media-thumbnail>",
+    "Controls / <media-controls>",
+    "Tooltip / <media-tooltip>",
+    "Popover / <media-popover>",
+    "playback, volume, time, fullscreen, pip, source, textTracks, playbackRate — features",
+    "videoFeatures, audioFeatures, backgroundFeatures — feature bundles",
+    "VideoSkin, AudioSkin, BackgroundVideoSkin — React skins",
+    "createSelector() — memoized state selector factory",
+    "useSelector(), useStore() — @videojs/store React bindings",
+    "ProviderMixin, ContainerMixin — HTML class mixins"
+  ]
+}
